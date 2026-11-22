@@ -1,0 +1,44 @@
+{
+  "name": "flask-snippets",
+  "version": "1.0.0",
+  "description": "A comprehensive offline-first Flask development companion for Acode.",
+  "author": {
+    "name": "Zylle Mojica",
+    "github": "Ryze282747"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ryze282747/FlaskSnippets.git"
+  },
+  "homepage": "https://github.com/Ryze282747/FlaskSnippets",
+  "bugs": {
+    "url": "https://github.com/Ryze282747/FlaskSnippets/issues"
+  },
+  "keywords": [
+    "acode",
+    "flask",
+    "python",
+    "snippets",
+    "autocomplete",
+    "developer-tools"
+  ],
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
+    "clean": "rm -rf dist",
+    "check": "node --check main.js",
+    "test": "node --test",
+    "release": "npm run clean && npm run build && npm test",
+    "zip":"zip -r FlaskSnippets.zip dist/ CHANGELOG.md icon.png LICENSE plugin.json README.md",
+    "source":"zip -r 'FlaskSnippets.zip' . -x 'node_modules/*' '.git/*' 'dist/*' '*.zip' '.DS_Store'",
+    "move":"mv FlaskSnippets.zip $HOME/storage/shared/plugins/FlaskSnippets/"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.52.0"
+  }
+}
