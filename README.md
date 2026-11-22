@@ -251,15 +251,15 @@ Screenshots will be added to the repository's `screenshots/` directory.
 
 **Zylle**
 
-- GitHub: https://github.com/Ryze282747
-- Instagram: https://www.instagram.com/ryzexlsv
-- Acode Profile: https://acode.app/profile/31227
+- GitHub: [Ryze282747](https://github.com/Ryze282747)
+- Instagram: [ryzexlsv](https://www.instagram.com/ryzexlsv)
+- Acode Profile: [Zylle Mojica](https://acode.app/profile/31227)
 
 ## Other Plugins
 
 Check out my other Acode projects:
 
-https://acode.app/profile/31227
+[Acode Profile](https://acode.app/profile/31227)
 
 ## Contributing
 
